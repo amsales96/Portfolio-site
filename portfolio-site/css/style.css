@@ -414,8 +414,8 @@ ul.no-bullets {
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: inline-grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
 }
 
 .portfolio__item {
@@ -423,10 +423,14 @@ ul.no-bullets {
     overflow: hidden;
 }
 
+
 .portfolio__img {
+    max-height: 500px;
+    max-width: 700px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        
 }
 
 .portfolio__item:focus {
