@@ -512,3 +512,10 @@ ul.no-bullets {
 .portfolio-item-list-pic:hover{
     transform: scale(1.6);
 }
+
+.disclaimer{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #807c7c;
+    justify-content: center;
+}
